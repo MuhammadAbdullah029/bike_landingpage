@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+    main img{
+        object-position: center;
+    }
+    nav{
+        padding: 7vw;
+    }
+    nav .left .logo{
+        font-size: 6vw;
+    }
+    .right ul{
+        gap: 2vw;
+    }
+    .right ul li:nth-child(3){
+        display: none;
+    }
+    ul li a{
+        font-size: 3vw;
+    }
+    .page .social{
+        gap: 19vh;
+    }
+    .social span{
+        font-size: 5vw;
+    }
+    .buy{
+        /* background-color: red; */
+        height: 43vw;
+        
+    }
+    .buy h1{
+        font-weight: 600;
+        font-size: 11vw;
+    }
+    .buy p{
+        font-size: 3vw;
+    }
+    .buy button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 41%;
+        height: 8vw;
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    footer{
+        gap: 3vw;
+        bottom: 4%;
+    }
+    footer h3{
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+    footer h4{
+        font-size: 3vw;
+        font-weight: 300;
+    }
+}

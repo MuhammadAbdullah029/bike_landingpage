@@ -1,0 +1,146 @@
+@font-face {
+    font-family: rh;
+    src: url("/font/Rejouice-Headline.woff2");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rh;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #1d1d1d;
+    z-index: -4;
+}
+main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    z-index: -3;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    background-color: #80DED0;
+    background: linear-gradient(to left, #050000 15%, transparent 30%) ;
+    opacity: .5;
+}
+nav{
+    height: 6vw;
+    width: 100%;
+    display: flex;
+    padding: 1.9vw 5vw;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0%;
+    /* background-color: ; */
+}
+nav .left .logo{
+    color: #FDFDFB;
+    font-size: 1.9vw;
+}
+#color{
+    padding: 5px;
+    color: #050000;
+    background-color: #80DED0;
+    border-radius: 4px;
+}
+.right ul{
+    gap: 4vw;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: #FDFDFB;
+    font-size: 1.3vw;
+    font-weight: 300;
+    text-decoration: none;
+}
+ul li a:hover{
+    transition: all .5s ease;
+    text-decoration: underline;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.page .social{
+    width: 5%;
+    height: 35vw;
+    color: #FDFDFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 17vh;
+    position: absolute;
+    left: 3%;
+}
+.social span{
+    transform: rotate(91deg);
+}
+.buy{
+    position: absolute;
+    right: 3%;
+    color: #FDFDFB;
+    overflow: hidden;
+    /* background-color: red; */
+    height: 25vw;
+    
+}
+.buy h1{
+    font-size: 6vw;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: right;
+}
+.buy p{
+    text-align: right;
+    opacity: .8;
+}
+.buy button{
+    width: 31%;
+    height: 2.5vw;
+    position: absolute;
+    right: 0%;
+    margin-top: 1.9vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: #050000;
+    background-color: #80DED0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer{
+    gap: 4vw;
+    display: flex;
+    color: #FDFDFB;
+    position: absolute;
+    right: 3%;
+    bottom: 8%;
+    overflow: hidden;
+}
+footer h3{
+    font-size: 1.4vw;
+    font-weight: 300;
+    text-align: center;
+}
+footer h4{
+    font-size: 1vw;
+    font-weight: 300;
+}
