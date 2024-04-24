@@ -11,7 +11,7 @@ tl.from(".social", {
 })
 
 tl.from(".buy h1", {
-    y: -150,
+    y: -175,
     duration: 1.5,
     stagger: .5,
     ease: "bounce.out"
